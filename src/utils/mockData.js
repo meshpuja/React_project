@@ -1,0 +1,1626 @@
+let resObj = [
+  {
+    info: {
+      id: "23747",
+      name: "McDonald's",
+      cloudinaryImageId: "ee5f8e06b300efc07c9fe3f4df40dfc4",
+      locality: "K star mall",
+      areaName: "Chembur",
+      costForTwo: "₹400 for two",
+      cuisines: ["Burgers", "Beverages", "Cafe", "Desserts"],
+      avgRating: 4.2,
+      feeDetails: {
+        restaurantId: "23747",
+        fees: [
+          {
+            name: "BASE_DISTANCE",
+            fee: 3000,
+          },
+          {
+            name: "BASE_TIME",
+          },
+          {
+            name: "ANCILLARY_SURGE_FEE",
+          },
+        ],
+        totalFee: 3000,
+      },
+      parentId: "630",
+      avgRatingString: "4.2",
+      totalRatingsString: "10K+",
+      sla: {
+        deliveryTime: 28,
+        lastMileTravel: 1.3,
+        serviceability: "SERVICEABLE",
+        slaString: "28 mins",
+        lastMileTravelString: "1.3 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2023-08-04 02:45:00",
+        opened: true,
+      },
+      badges: {},
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {},
+          textBased: {},
+          textExtendedBadges: {},
+        },
+      },
+      aggregatedDiscountInfoV3: {
+        header: "10% OFF",
+        subHeader: "ABOVE ₹999",
+        discountTag: "FLAT DEAL",
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+    },
+    analytics: {},
+    cta: {
+      link: "https://www.swiggy.com/restaurants/mcdonalds-k-star-mall-chembur-mumbai-23747",
+      type: "WEBLINK",
+    },
+  },
+  {
+    info: {
+      id: "24515",
+      name: "Domino's Pizza",
+      cloudinaryImageId: "vpjvwgkchjsw879vjnue",
+      locality: "Orchid Pride",
+      areaName: "Chembur",
+      costForTwo: "₹400 for two",
+      cuisines: ["Pizzas", "Italian", "Pastas", "Desserts"],
+      avgRating: 3.9,
+      feeDetails: {
+        restaurantId: "24515",
+        fees: [
+          {
+            name: "BASE_DISTANCE",
+            fee: 3000,
+          },
+          {
+            name: "BASE_TIME",
+          },
+          {
+            name: "ANCILLARY_SURGE_FEE",
+          },
+        ],
+        totalFee: 3000,
+      },
+      parentId: "2456",
+      avgRatingString: "3.9",
+      totalRatingsString: "10K+",
+      sla: {
+        deliveryTime: 25,
+        serviceability: "SERVICEABLE",
+        slaString: "25 mins",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2023-08-03 23:59:00",
+        opened: true,
+      },
+      badges: {},
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {},
+          textBased: {},
+          textExtendedBadges: {},
+        },
+      },
+      aggregatedDiscountInfoV3: {
+        header: "₹125 OFF",
+        subHeader: "ABOVE ₹999",
+        discountTag: "FLAT DEAL",
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+    },
+    analytics: {},
+    cta: {
+      link: "https://www.swiggy.com/restaurants/dominos-pizza-orchid-pride-chembur-mumbai-24515",
+      type: "WEBLINK",
+    },
+  },
+  {
+    info: {
+      id: "62772",
+      name: "Burger King",
+      cloudinaryImageId: "e33e1d3ba7d6b2bb0d45e1001b731fcf",
+      locality: "K star mall",
+      areaName: "Chembur",
+      costForTwo: "₹350 for two",
+      cuisines: ["Burgers", "American"],
+      avgRating: 4.2,
+      feeDetails: {
+        restaurantId: "62772",
+        fees: [
+          {
+            name: "BASE_DISTANCE",
+            fee: 3000,
+          },
+          {
+            name: "BASE_TIME",
+          },
+          {
+            name: "ANCILLARY_SURGE_FEE",
+          },
+        ],
+        totalFee: 3000,
+      },
+      parentId: "166",
+      avgRatingString: "4.2",
+      totalRatingsString: "10K+",
+      sla: {
+        deliveryTime: 29,
+        lastMileTravel: 1.3,
+        serviceability: "SERVICEABLE",
+        slaString: "29 mins",
+        lastMileTravelString: "1.3 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2023-08-04 00:00:00",
+        opened: true,
+      },
+      badges: {},
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {},
+          textBased: {},
+          textExtendedBadges: {},
+        },
+      },
+      aggregatedDiscountInfoV3: {
+        header: "EVERY ITEM",
+        subHeader: "@ ₹129",
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+    },
+    analytics: {},
+    cta: {
+      link: "https://www.swiggy.com/restaurants/burger-king-k-star-mall-chembur-mumbai-62772",
+      type: "WEBLINK",
+    },
+  },
+  {
+    info: {
+      id: "16049",
+      name: "KFC",
+      cloudinaryImageId: "56c9ab92bd79745fd152a30fa2525426",
+      locality: "K Star Mall",
+      areaName: "Chembur",
+      costForTwo: "₹400 for two",
+      cuisines: ["Burgers", "Biryani", "American", "Snacks", "Fast Food"],
+      avgRating: 4,
+      feeDetails: {
+        restaurantId: "16049",
+        fees: [
+          {
+            name: "BASE_DISTANCE",
+            fee: 3000,
+          },
+          {
+            name: "BASE_TIME",
+          },
+          {
+            name: "ANCILLARY_SURGE_FEE",
+          },
+        ],
+        totalFee: 3000,
+      },
+      parentId: "547",
+      avgRatingString: "4.0",
+      totalRatingsString: "10K+",
+      sla: {
+        deliveryTime: 22,
+        lastMileTravel: 1.3,
+        serviceability: "SERVICEABLE",
+        slaString: "22 mins",
+        lastMileTravelString: "1.3 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2023-08-04 02:00:00",
+        opened: true,
+      },
+      badges: {},
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {},
+          textBased: {},
+          textExtendedBadges: {},
+        },
+      },
+      aggregatedDiscountInfoV3: {
+        header: "EVERY ITEM",
+        subHeader: "@ ₹179",
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+    },
+    analytics: {},
+    cta: {
+      link: "https://www.swiggy.com/restaurants/kfc-k-star-mall-chembur-mumbai-16049",
+      type: "WEBLINK",
+    },
+  },
+  {
+    info: {
+      id: "443516",
+      name: "EatFit",
+      cloudinaryImageId: "ee4f041cd8611dccc19f4267783ab5ea",
+      locality: "Deonar",
+      areaName: "Chembur",
+      costForTwo: "₹270 for two",
+      cuisines: [
+        "Chinese",
+        "Healthy Food",
+        "Tandoor",
+        "Pizzas",
+        "North Indian",
+        "Thalis",
+        "Biryani",
+      ],
+      avgRating: 4.1,
+      feeDetails: {
+        restaurantId: "443516",
+        fees: [
+          {
+            name: "BASE_DISTANCE",
+            fee: 3000,
+          },
+          {
+            name: "BASE_TIME",
+          },
+          {
+            name: "ANCILLARY_SURGE_FEE",
+          },
+        ],
+        totalFee: 3000,
+      },
+      parentId: "76139",
+      avgRatingString: "4.1",
+      totalRatingsString: "1K+",
+      sla: {
+        deliveryTime: 21,
+        lastMileTravel: 1.1,
+        serviceability: "SERVICEABLE",
+        slaString: "21 mins",
+        lastMileTravelString: "1.1 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2023-08-03 23:59:00",
+        opened: true,
+      },
+      badges: {},
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {},
+          textBased: {},
+          textExtendedBadges: {},
+        },
+      },
+      aggregatedDiscountInfoV3: {
+        header: "50% OFF",
+        subHeader: "UPTO ₹100",
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+    },
+    analytics: {},
+    cta: {
+      link: "https://www.swiggy.com/restaurants/eatfit-deonar-chembur-mumbai-443516",
+      type: "WEBLINK",
+    },
+  },
+  {
+    info: {
+      id: "255976",
+      name: "Poetry By Love & Cheesecake",
+      cloudinaryImageId: "74ce39b96381bff5e875cbf9d3c3c737",
+      locality: "Chembur",
+      areaName: "Chembur",
+      costForTwo: "₹800 for two",
+      cuisines: [
+        "American",
+        "European",
+        "Continental",
+        "Desserts",
+        "Bakery",
+        "Salads",
+      ],
+      avgRating: 4.5,
+      feeDetails: {
+        restaurantId: "255976",
+        fees: [
+          {
+            name: "BASE_DISTANCE",
+            fee: 3000,
+          },
+          {
+            name: "BASE_TIME",
+          },
+          {
+            name: "ANCILLARY_SURGE_FEE",
+          },
+        ],
+        totalFee: 3000,
+      },
+      parentId: "11330",
+      avgRatingString: "4.5",
+      totalRatingsString: "1K+",
+      sla: {
+        deliveryTime: 31,
+        lastMileTravel: 2.2,
+        serviceability: "SERVICEABLE",
+        slaString: "31 mins",
+        lastMileTravelString: "2.2 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2023-08-03 23:45:00",
+        opened: true,
+      },
+      badges: {},
+      isOpen: true,
+      aggregatedDiscountInfoV2: {},
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {},
+          textBased: {},
+          textExtendedBadges: {},
+        },
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+    },
+    analytics: {},
+    cta: {
+      link: "https://www.swiggy.com/restaurants/poetry-by-love-and-cheesecake-chembur-mumbai-255976",
+      type: "WEBLINK",
+    },
+  },
+  {
+    info: {
+      id: "57224",
+      name: "Grandmama's Cafe",
+      cloudinaryImageId: "djy54mgqnvwx3dtaazsb",
+      locality: "Stroad",
+      areaName: "Chembur",
+      costForTwo: "₹800 for two",
+      cuisines: [
+        "Cafe",
+        "Italian",
+        "Continental",
+        "American",
+        "Burgers",
+        "Pizzas",
+        "Pastas",
+        "Beverages",
+      ],
+      avgRating: 4,
+      feeDetails: {
+        restaurantId: "57224",
+        fees: [
+          {
+            name: "BASE_DISTANCE",
+            fee: 3000,
+          },
+          {
+            name: "BASE_TIME",
+          },
+          {
+            name: "ANCILLARY_SURGE_FEE",
+          },
+        ],
+        totalFee: 3000,
+      },
+      parentId: "4890",
+      avgRatingString: "4.0",
+      totalRatingsString: "5K+",
+      sla: {
+        deliveryTime: 36,
+        lastMileTravel: 2.3,
+        serviceability: "SERVICEABLE",
+        slaString: "36 mins",
+        lastMileTravelString: "2.3 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2023-08-03 23:30:00",
+        opened: true,
+      },
+      badges: {},
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {},
+          textBased: {},
+          textExtendedBadges: {},
+        },
+      },
+      aggregatedDiscountInfoV3: {
+        header: "50% OFF",
+        subHeader: "UPTO ₹100",
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+    },
+    analytics: {},
+    cta: {
+      link: "https://www.swiggy.com/restaurants/grandmamas-cafe-stroad-chembur-mumbai-57224",
+      type: "WEBLINK",
+    },
+  },
+  {
+    info: {
+      id: "25571",
+      name: "Subway",
+      cloudinaryImageId: "1ace5fa65eff3e1223feb696c956b38b",
+      locality: "Chembur",
+      areaName: "Chembur",
+      costForTwo: "₹350 for two",
+      cuisines: ["Fast Food", "Salads", "Snacks", "Desserts", "Beverages"],
+      avgRating: 4.1,
+      feeDetails: {
+        restaurantId: "25571",
+        fees: [
+          {
+            name: "BASE_DISTANCE",
+            fee: 3000,
+          },
+          {
+            name: "BASE_TIME",
+          },
+          {
+            name: "ANCILLARY_SURGE_FEE",
+          },
+        ],
+        totalFee: 3000,
+      },
+      parentId: "2",
+      avgRatingString: "4.1",
+      totalRatingsString: "10K+",
+      sla: {
+        deliveryTime: 25,
+        lastMileTravel: 1.9,
+        serviceability: "SERVICEABLE",
+        slaString: "25 mins",
+        lastMileTravelString: "1.9 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2023-08-04 05:00:00",
+        opened: true,
+      },
+      badges: {},
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {},
+          textBased: {},
+          textExtendedBadges: {},
+        },
+      },
+      aggregatedDiscountInfoV3: {
+        header: "40% OFF",
+        subHeader: "UPTO ₹80",
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+    },
+    analytics: {},
+    cta: {
+      link: "https://www.swiggy.com/restaurants/subway-chembur-mumbai-25571",
+      type: "WEBLINK",
+    },
+  },
+  {
+    info: {
+      id: "77584",
+      name: "Wow! Momo",
+      cloudinaryImageId: "0984acc0ed7b914206dbbcb90297becc",
+      locality: "Chembur",
+      areaName: "Chembur",
+      costForTwo: "₹300 for two",
+      cuisines: [
+        "Tibetan",
+        "Healthy Food",
+        "Asian",
+        "Chinese",
+        "Snacks",
+        "Continental",
+        "Desserts",
+        "Beverages",
+      ],
+      avgRating: 4,
+      feeDetails: {
+        restaurantId: "77584",
+        fees: [
+          {
+            name: "BASE_DISTANCE",
+            fee: 3000,
+          },
+          {
+            name: "BASE_TIME",
+          },
+          {
+            name: "ANCILLARY_SURGE_FEE",
+          },
+        ],
+        totalFee: 3000,
+      },
+      parentId: "1776",
+      avgRatingString: "4.0",
+      totalRatingsString: "10K+",
+      sla: {
+        deliveryTime: 29,
+        lastMileTravel: 2.5,
+        serviceability: "SERVICEABLE",
+        slaString: "29 mins",
+        lastMileTravelString: "2.5 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2023-08-04 03:00:00",
+        opened: true,
+      },
+      badges: {},
+      isOpen: true,
+      aggregatedDiscountInfoV2: {},
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {},
+          textBased: {},
+          textExtendedBadges: {},
+        },
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+    },
+    analytics: {},
+    cta: {
+      link: "https://www.swiggy.com/restaurants/wow-momo-chembur-mumbai-77584",
+      type: "WEBLINK",
+    },
+  },
+  {
+    info: {
+      id: "395479",
+      name: "Chaayos Chai+Snacks=Relax",
+      cloudinaryImageId: "2beebd3688e63e027ee8a11c1c8a72c8",
+      locality: "K - Star Mall DK Chembur",
+      areaName: "Ghatkopar Vikhroli",
+      costForTwo: "₹250 for two",
+      cuisines: [
+        "Bakery",
+        "Beverages",
+        "Chaat",
+        "Desserts",
+        "Fast Food",
+        "Home Food",
+        "Italian",
+        "Maharashtrian",
+        "Snacks",
+        "Street Food",
+        "Sweets",
+      ],
+      avgRating: 4.5,
+      feeDetails: {
+        restaurantId: "395479",
+        fees: [
+          {
+            name: "BASE_DISTANCE",
+            fee: 3000,
+          },
+          {
+            name: "BASE_TIME",
+          },
+          {
+            name: "ANCILLARY_SURGE_FEE",
+          },
+        ],
+        totalFee: 3000,
+      },
+      parentId: "281782",
+      avgRatingString: "4.5",
+      totalRatingsString: "1K+",
+      sla: {
+        deliveryTime: 27,
+        lastMileTravel: 1.5,
+        serviceability: "SERVICEABLE",
+        slaString: "27 mins",
+        lastMileTravelString: "1.5 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2023-08-03 23:00:00",
+        opened: true,
+      },
+      badges: {},
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {},
+          textBased: {},
+          textExtendedBadges: {},
+        },
+      },
+      aggregatedDiscountInfoV3: {
+        header: "20% OFF",
+        subHeader: "UPTO ₹50",
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+    },
+    analytics: {},
+    cta: {
+      link: "https://www.swiggy.com/restaurants/chaayos-chai-snacks-relax-k-star-mall-dk-chembur-ghatkopar-vikhroli-mumbai-395479",
+      type: "WEBLINK",
+    },
+  },
+  {
+    info: {
+      id: "364760",
+      name: "Pizza Hut",
+      cloudinaryImageId: "2b4f62d606d1b2bfba9ba9e5386fabb7",
+      locality: "Chembur",
+      areaName: "Chembur",
+      costForTwo: "₹300 for two",
+      cuisines: ["Pizzas"],
+      avgRating: 3.6,
+      feeDetails: {
+        restaurantId: "364760",
+        fees: [
+          {
+            name: "BASE_DISTANCE",
+            fee: 3000,
+          },
+          {
+            name: "BASE_TIME",
+          },
+          {
+            name: "ANCILLARY_SURGE_FEE",
+          },
+        ],
+        totalFee: 3000,
+      },
+      parentId: "721",
+      avgRatingString: "3.6",
+      totalRatingsString: "1K+",
+      sla: {
+        deliveryTime: 31,
+        lastMileTravel: 1.5,
+        serviceability: "SERVICEABLE",
+        slaString: "31 mins",
+        lastMileTravelString: "1.5 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2023-08-04 03:00:00",
+        opened: true,
+      },
+      badges: {},
+      isOpen: true,
+      aggregatedDiscountInfoV2: {},
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {},
+          textBased: {},
+          textExtendedBadges: {},
+        },
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+    },
+    analytics: {},
+    cta: {
+      link: "https://www.swiggy.com/restaurants/pizza-hut-chembur-mumbai-364760",
+      type: "WEBLINK",
+    },
+  },
+  {
+    info: {
+      id: "61586",
+      name: "Sbarro - New York Pizza",
+      cloudinaryImageId: "lqhozn8zqhm0dzz6kinf",
+      locality: "Govandi",
+      areaName: "Chembur",
+      costForTwo: "₹300 for two",
+      cuisines: ["Italian", "Pizzas", "Desserts", "Beverages"],
+      avgRating: 3.9,
+      feeDetails: {
+        restaurantId: "61586",
+        fees: [
+          {
+            name: "BASE_DISTANCE",
+            fee: 3000,
+          },
+          {
+            name: "BASE_TIME",
+          },
+          {
+            name: "ANCILLARY_SURGE_FEE",
+          },
+        ],
+        totalFee: 3000,
+      },
+      parentId: "179343",
+      avgRatingString: "3.9",
+      totalRatingsString: "5K+",
+      sla: {
+        deliveryTime: 24,
+        lastMileTravel: 1.1,
+        serviceability: "SERVICEABLE",
+        slaString: "24 mins",
+        lastMileTravelString: "1.1 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2023-08-04 03:00:00",
+        opened: true,
+      },
+      badges: {},
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {},
+          textBased: {},
+          textExtendedBadges: {},
+        },
+      },
+      aggregatedDiscountInfoV3: {
+        header: "60% OFF",
+        subHeader: "UPTO ₹120",
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+    },
+    analytics: {},
+    cta: {
+      link: "https://www.swiggy.com/restaurants/sbarro-new-york-pizza-govandi-chembur-mumbai-61586",
+      type: "WEBLINK",
+    },
+  },
+  {
+    info: {
+      id: "364099",
+      name: "Sassy Teaspoon",
+      cloudinaryImageId: "bc63cb014055874144f4a89b560a8df7",
+      locality: "Chembur",
+      areaName: "Chembur",
+      costForTwo: "₹300 for two",
+      cuisines: ["Desserts", "Bakery"],
+      avgRating: 4.3,
+      feeDetails: {
+        restaurantId: "364099",
+        fees: [
+          {
+            name: "BASE_DISTANCE",
+            fee: 2800,
+          },
+          {
+            name: "BASE_TIME",
+          },
+          {
+            name: "ANCILLARY_SURGE_FEE",
+          },
+        ],
+        totalFee: 2800,
+      },
+      parentId: "3601",
+      avgRatingString: "4.3",
+      totalRatingsString: "500+",
+      sla: {
+        deliveryTime: 23,
+        lastMileTravel: 2.5,
+        serviceability: "SERVICEABLE",
+        slaString: "23 mins",
+        lastMileTravelString: "2.5 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2023-08-03 23:59:00",
+        opened: true,
+      },
+      badges: {},
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {},
+          textBased: {},
+          textExtendedBadges: {},
+        },
+      },
+      aggregatedDiscountInfoV3: {
+        header: "20% OFF",
+        subHeader: "UPTO ₹50",
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+    },
+    analytics: {},
+    cta: {
+      link: "https://www.swiggy.com/restaurants/sassy-teaspoon-chembur-mumbai-364099",
+      type: "WEBLINK",
+    },
+  },
+  {
+    info: {
+      id: "202686",
+      name: "Hangout Cakes & More",
+      cloudinaryImageId: "feb64fa9632709c1370119f2c8f17e56",
+      locality: "Jhulelal Chowk",
+      areaName: "Ghatkopar East",
+      costForTwo: "₹150 for two",
+      cuisines: ["Desserts", "Snacks", "Bakery"],
+      avgRating: 4.2,
+      veg: true,
+      feeDetails: {
+        restaurantId: "202686",
+        fees: [
+          {
+            name: "BASE_DISTANCE",
+            fee: 4200,
+          },
+          {
+            name: "BASE_TIME",
+          },
+          {
+            name: "ANCILLARY_SURGE_FEE",
+          },
+        ],
+        totalFee: 4200,
+      },
+      parentId: "4508",
+      avgRatingString: "4.2",
+      totalRatingsString: "1K+",
+      sla: {
+        deliveryTime: 29,
+        lastMileTravel: 4,
+        serviceability: "SERVICEABLE",
+        slaString: "29 mins",
+        lastMileTravelString: "4.0 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2023-08-03 23:59:00",
+        opened: true,
+      },
+      badges: {},
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {},
+          textBased: {},
+          textExtendedBadges: {},
+        },
+      },
+      aggregatedDiscountInfoV3: {
+        header: "60% OFF",
+        subHeader: "UPTO ₹120",
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+    },
+    analytics: {},
+    cta: {
+      link: "https://www.swiggy.com/restaurants/hangout-cakes-and-more-jhulelal-chowk-ghatkopar-east-mumbai-202686",
+      type: "WEBLINK",
+    },
+  },
+  {
+    info: {
+      id: "47610",
+      name: "Theobroma",
+      cloudinaryImageId: "f4p7f3klf2wka2db9rwc",
+      locality: "VN Purav Marg",
+      areaName: "Chembur",
+      costForTwo: "₹800 for two",
+      cuisines: ["Bakery", "Desserts"],
+      avgRating: 4.5,
+      feeDetails: {
+        restaurantId: "47610",
+        fees: [
+          {
+            name: "BASE_DISTANCE",
+            fee: 3000,
+          },
+          {
+            name: "BASE_TIME",
+          },
+          {
+            name: "ANCILLARY_SURGE_FEE",
+          },
+        ],
+        totalFee: 3000,
+      },
+      parentId: "1040",
+      avgRatingString: "4.5",
+      totalRatingsString: "10K+",
+      sla: {
+        deliveryTime: 21,
+        lastMileTravel: 1.9,
+        serviceability: "SERVICEABLE",
+        slaString: "21 mins",
+        lastMileTravelString: "1.9 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2023-08-04 00:00:00",
+        opened: true,
+      },
+      badges: {},
+      isOpen: true,
+      aggregatedDiscountInfoV2: {},
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {},
+          textBased: {},
+          textExtendedBadges: {},
+        },
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+    },
+    analytics: {},
+    cta: {
+      link: "https://www.swiggy.com/restaurants/theobroma-vn-purav-marg-chembur-mumbai-47610",
+      type: "WEBLINK",
+    },
+  },
+  {
+    info: {
+      id: "128630",
+      name: "Monginis Cake Shop",
+      cloudinaryImageId: "nwcvfmydrkky8uajbqlx",
+      locality: "Shivaji Chowk",
+      areaName: "Chembur",
+      costForTwo: "₹300 for two",
+      cuisines: ["Bakery", "Desserts", "Snacks"],
+      avgRating: 4.2,
+      feeDetails: {
+        restaurantId: "128630",
+        fees: [
+          {
+            name: "BASE_DISTANCE",
+            fee: 3000,
+          },
+          {
+            name: "BASE_TIME",
+          },
+          {
+            name: "ANCILLARY_SURGE_FEE",
+          },
+        ],
+        totalFee: 3000,
+      },
+      parentId: "5007",
+      avgRatingString: "4.2",
+      totalRatingsString: "500+",
+      sla: {
+        deliveryTime: 20,
+        lastMileTravel: 1.9,
+        serviceability: "SERVICEABLE",
+        slaString: "20 mins",
+        lastMileTravelString: "1.9 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2023-08-03 22:30:00",
+        opened: true,
+      },
+      badges: {},
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {},
+          textBased: {},
+          textExtendedBadges: {},
+        },
+      },
+      aggregatedDiscountInfoV3: {
+        header: "20% OFF",
+        subHeader: "UPTO ₹50",
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+    },
+    analytics: {},
+    cta: {
+      link: "https://www.swiggy.com/restaurants/monginis-cake-shop-shivaji-chowk-chembur-mumbai-128630",
+      type: "WEBLINK",
+    },
+  },
+  {
+    info: {
+      id: "25633",
+      name: "Barista Coffee",
+      cloudinaryImageId: "02731f6bd73f982bc74a522edd9c1b01",
+      locality: "Chembur",
+      areaName: "Chembur",
+      costForTwo: "₹350 for two",
+      cuisines: ["Beverages", "Snacks", "Desserts"],
+      avgRating: 4.2,
+      feeDetails: {
+        restaurantId: "25633",
+        fees: [
+          {
+            name: "BASE_DISTANCE",
+            fee: 3000,
+          },
+          {
+            name: "BASE_TIME",
+          },
+          {
+            name: "ANCILLARY_SURGE_FEE",
+          },
+        ],
+        totalFee: 3000,
+      },
+      parentId: "2359",
+      avgRatingString: "4.2",
+      totalRatingsString: "1K+",
+      sla: {
+        deliveryTime: 21,
+        lastMileTravel: 1.9,
+        serviceability: "SERVICEABLE",
+        slaString: "21 mins",
+        lastMileTravelString: "1.9 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2023-08-03 23:00:00",
+        opened: true,
+      },
+      badges: {},
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {},
+          textBased: {},
+          textExtendedBadges: {},
+        },
+      },
+      aggregatedDiscountInfoV3: {
+        header: "60% OFF",
+        subHeader: "UPTO ₹120",
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+    },
+    analytics: {},
+    cta: {
+      link: "https://www.swiggy.com/restaurants/barista-coffee-chembur-mumbai-25633",
+      type: "WEBLINK",
+    },
+  },
+  {
+    info: {
+      id: "402638",
+      name: "Social",
+      cloudinaryImageId: "bmtoiw5jccagreuhicwx",
+      locality: "NATRAJ COMPOUND, DR C G ROAD",
+      areaName: "Chembur",
+      costForTwo: "₹600 for two",
+      cuisines: [
+        "North Indian",
+        "Chinese",
+        "Fast Food",
+        "Biryani",
+        "Pizzas",
+        "Salads",
+        "Kebabs",
+        "Juices",
+        "Desserts",
+        "Beverages",
+      ],
+      avgRating: 4.2,
+      feeDetails: {
+        restaurantId: "402638",
+        fees: [
+          {
+            name: "BASE_DISTANCE",
+            fee: 3000,
+          },
+          {
+            name: "BASE_TIME",
+          },
+          {
+            name: "ANCILLARY_SURGE_FEE",
+          },
+        ],
+        totalFee: 3000,
+      },
+      parentId: "2146",
+      avgRatingString: "4.2",
+      totalRatingsString: "1K+",
+      sla: {
+        deliveryTime: 31,
+        lastMileTravel: 2.1,
+        serviceability: "SERVICEABLE",
+        slaString: "31 mins",
+        lastMileTravelString: "2.1 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2023-08-04 01:00:00",
+        opened: true,
+      },
+      badges: {},
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {},
+          textBased: {},
+          textExtendedBadges: {},
+        },
+      },
+      aggregatedDiscountInfoV3: {
+        header: "₹125 OFF",
+        subHeader: "ABOVE ₹249",
+        discountTag: "FLAT DEAL",
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+    },
+    analytics: {},
+    cta: {
+      link: "https://www.swiggy.com/restaurants/social-natraj-compound-dr-c-g-road-chembur-mumbai-402638",
+      type: "WEBLINK",
+    },
+  },
+  {
+    info: {
+      id: "19451",
+      name: "Havmor Havfunn Ice cream",
+      cloudinaryImageId: "49845b494b1e637209b7bd1c7ca184ad",
+      locality: "Chembur",
+      areaName: "Chembur",
+      costForTwo: "₹400 for two",
+      cuisines: ["Ice Cream", "Ice Cream Cakes", "Desserts", "Beverages"],
+      avgRating: 4.4,
+      feeDetails: {
+        restaurantId: "19451",
+        fees: [
+          {
+            name: "BASE_DISTANCE",
+            fee: 3000,
+          },
+          {
+            name: "BASE_TIME",
+          },
+          {
+            name: "ANCILLARY_SURGE_FEE",
+          },
+        ],
+        totalFee: 3000,
+      },
+      parentId: "94570",
+      avgRatingString: "4.4",
+      totalRatingsString: "5K+",
+      sla: {
+        deliveryTime: 24,
+        lastMileTravel: 2,
+        serviceability: "SERVICEABLE",
+        slaString: "24 mins",
+        lastMileTravelString: "2.0 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2023-08-03 23:45:00",
+        opened: true,
+      },
+      badges: {},
+      isOpen: true,
+      aggregatedDiscountInfoV2: {},
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {},
+          textBased: {},
+          textExtendedBadges: {},
+        },
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+    },
+    analytics: {},
+    cta: {
+      link: "https://www.swiggy.com/restaurants/havmor-havfunn-ice-cream-chembur-mumbai-19451",
+      type: "WEBLINK",
+    },
+  },
+  {
+    info: {
+      id: "54424",
+      name: "Nothing But Chicken",
+      cloudinaryImageId: "zqimpyyrxrfqqbm4yvqj",
+      locality: "Sion-Trombay road",
+      areaName: "Chembur",
+      costForTwo: "₹400 for two",
+      cuisines: ["Salads", "Fast Food", "Kebabs"],
+      avgRating: 4.3,
+      feeDetails: {
+        restaurantId: "54424",
+        fees: [
+          {
+            name: "BASE_DISTANCE",
+            fee: 3000,
+          },
+          {
+            name: "BASE_TIME",
+          },
+          {
+            name: "ANCILLARY_SURGE_FEE",
+          },
+        ],
+        totalFee: 3000,
+      },
+      parentId: "668",
+      avgRatingString: "4.3",
+      totalRatingsString: "10K+",
+      sla: {
+        deliveryTime: 24,
+        lastMileTravel: 1.9,
+        serviceability: "SERVICEABLE",
+        slaString: "24 mins",
+        lastMileTravelString: "1.9 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2023-08-04 05:00:00",
+        opened: true,
+      },
+      badges: {},
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {},
+          textBased: {},
+          textExtendedBadges: {},
+        },
+      },
+      aggregatedDiscountInfoV3: {
+        header: "20% OFF",
+        subHeader: "UPTO ₹50",
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+    },
+    analytics: {},
+    cta: {
+      link: "https://www.swiggy.com/restaurants/nothing-but-chicken-sion-trombay-road-chembur-mumbai-54424",
+      type: "WEBLINK",
+    },
+  },
+];
+export default resObj;

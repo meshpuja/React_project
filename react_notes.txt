@@ -1,0 +1,36 @@
+react component is nothing but the javascript function which returns JSX
+component compositition is nothing but the component inside component
+u can inject any javascript code inside {}
+jsx santize data before rendering (malicious javascript)
+props is nothing but passing arguments to function
+config driven UI
+never use index as key
+react makes coding  experience fast
+mutiple export defined as name export
+whenever state variable updates react re render the component
+reconcilation algoritthm is react fiber
+virtual dom is represntation of actual dom nothing but objext
+diff algo finds out two virtsual dom
+react is fast because react is doing efficient dom manupulation react fiber architecture git
+monolith
+micro service architecture separation of concerns singke resoponsibilty principle diff stack diff services all services are on diff project or diff url
+
+const data = await fetch()
+const data1 =  await data.json()
+data.cards[5].card.card.gridElements.infoWithStyle.restaurants
+shimmer UI fake UI
+conditional rendering
+state react whenever state variable updates react re render component
+if no dependecny array use effect will be called on every render
+for empty dependency array useeffect will be called on only initial render
+if we put anything inside dependency array it will be called when dependency changes
+use state always in function component
+declare on top and never use it inside if else/for loop/function
+everything is component in react
+rafce
+error hook:userRouterError
+function starting with use is hook
+childernRoute whenever there is change in path outlet will be filled according to children.outlet is nothing but the component
+navigate to new page without reloading
+link component works as a tag SPA
+client side no network call server side
