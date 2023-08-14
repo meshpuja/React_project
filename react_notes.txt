@@ -34,3 +34,52 @@ childernRoute whenever there is change in path outlet will be filled according t
 navigate to new page without reloading
 link component works as a tag SPA
 client side no network call server side
+use effect takes two argument
+one is callback function and second is optionsl argument(depency arrays)
+function based component is nothing but javascript function that returns jsx
+class bases component is nothing but the class which has method render which returns jsx
+what is jsx?
+super why we add in class based component
+loading class based component means creating instance of class
+whenever we create instance of class constructor gets called
+this.state is object and we add state variable inside it
+when the class loads contructor gets called and then render is called
+parent child
+parent constructor parent render
+child constructor child render child didmount parent didmount
+component did mount to make api call: load UI then API call and render to not to wait for UI reacts wants to quickly render it then make api call and get the data render
+
+project.wojtechmaj.pl lifecycle hook
+1.parent constructor
+2.parent render
+3.first child constructor
+4.first child render
+5.second child constructor
+6.second child render
+7.first child component did mount
+8.second child component did mount
+9.parent component did mount
+
+
+why this is like this?
+react is batching render phase for multiple childeren because when the commit phase starts react update the dom and dom manipulay-tion is constly it takes lot of time
+render phase is fast as it is batches where only diff algo i.e virtual dom works
+dom updation in commit phase
+1.constructor 
+2.render with dummy state
+3.component did mount
+4.setstate
+5.render with actual data
+6.component did update
+7.component will unmount - when component disappear from page
+
+after first render component did mount called and after that each render component did update gets called
+componentwillunmount -  lots of stuf we need to clear while leaving the page
+return function in useeffect to write clean up code
+custom hook 
+single responsibility principle reusable maintainable testable
+hooks are utility functions
+app chunking/code spliting/dynamic bundling/lazyloading/ondemand/dynamic import
+saas scss styled component
+tailwind css
+material up  bootstrape chakra ui ant design
