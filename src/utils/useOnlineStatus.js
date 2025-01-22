@@ -9,7 +9,6 @@ const useOnlineStatus = () => {
     window.addEventListener("offline", () => {
       setOnlineStatus(false);
     });
-    console.log(onlineStatus);
   }, []);
 
   return onlineStatus;
