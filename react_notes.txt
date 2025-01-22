@@ -83,3 +83,69 @@ app chunking/code spliting/dynamic bundling/lazyloading/ondemand/dynamic import
 saas scss styled component
 tailwind css
 material up  bootstrape chakra ui ant design
+tailwind css gives class name
+pros:
+no move between files
+lot of css have to write classed code looks ugly
+it is light weight
+all developer give similar classes
+higher order component is a function that takes a component and return the component they are pure function not hchanging behaviour
+controllled and uncontrolled components
+lifting the state up
+ui layer data layer ui layer powered by data layer
+
+absulte span p div justify flex padding margin
+controlled and uncontrolled components lifting state up
+props drilling
+react context- createcontext usecontext
+in class based component we need to add <conext.consumer>{data=>console.log(data})
+context is global space i can provide to app or small portion
+userconect in class base takes call back function
+global modfiication of userconet we can pass provider and value
+redux state managment library is external library
+small application use conetxt
+redux is not mandatory
+heavry read write large sclae operations
+zustand is replacement of redux
+
+use of redux
+handling data i.e state of operation large scale operations
+easier to debug
+when u call add button it distacpatches the action which calls the function(reducer) tht modify the slice of redux store -- write
+use selector to read from slice(subscribing to the store)
+if u dont subscribe to right portion of store it will be big performance loss
+reducers reducer
+immer
+current state
+rtk says u can either mutate the state or return new state
+devtool redux
+rtk query
+middleware thunks
+developer can do three types of testing
+1.unit testing
+2.integration testing
+3.end to end testing
+react testing library build on dom testing librarby nd it uses jest
+npx jest init
+jsdom gives u like browser to test
+__tests__
+dunder test
+install babel preset
+
+
+pb
+try to do things unique way
+u have to be honest
+cnceinous and international effot unique honest
+
+
+
+
+
+
+
+
+*** NETFlix
+npx create-react-app name of project
+it uses webpack as bundler
+we can can also use vite

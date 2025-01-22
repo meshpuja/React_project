@@ -1,4 +1,4 @@
-import React, { Suspense, lazy } from "react";
+import React, { Suspense, lazy, useContext, useEffect, useState } from "react";
 import ReactDOM from "react-dom/client";
 import Header from "./component/Header";
 import Body from "./component/Body";
@@ -8,18 +8,36 @@ import Contact from "./component/Contact";
 import Error from "./component/Error";
 import { Outlet } from "react-router-dom";
 import RestroDetail from "./component/RestroDetailPage";
+import UserContext from "./utils/UserContext";
+import { Provider } from "react-redux";
+import appStore from "./utils/appStore";
+import CartPage from "./component/CartPage";
 
 const Grocery = lazy(() => import("./component/Grocery"));
+
 const AppLayout = () => {
+  useEffect(() => {
+    const data = {
+      isloggedIn: "Pooja",
+    };
+    setuserName(data.isloggedIn);
+  }, []);
+
+  const { isloggedIn } = useContext(UserContext);
+  const [userName, setuserName] = useState(isloggedIn);
   return (
-    <div className="app-layout">
-      <div className="header-container">
-        <Header />
-      </div>
-      <div className="restro-body">
-        <Outlet />
-      </div>
-    </div>
+    <Provider store={appStore}>
+      <UserContext.Provider value={{ isloggedIn: userName, setuserName }}>
+        <div className="app-layout">
+          <div className="header-container">
+            <Header />
+          </div>
+          <div className="restro-body">
+            <Outlet />
+          </div>
+        </div>
+      </UserContext.Provider>
+    </Provider>
   );
 };
 
@@ -41,6 +59,10 @@ const approuter = createBrowserRouter([
             <Grocery />
           </Suspense>
         ),
+      },
+      {
+        path: "/cart",
+        element: <CartPage />,
       },
     ],
   },
