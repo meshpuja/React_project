@@ -8,7 +8,6 @@ import { useSelector } from "react-redux";
 const Header = () => {
   const [btnReactName, setBtnReactName] = useState("Login");
   const onlineStatus = useOnlineStatus();
-  console.log(onlineStatus);
   const { isloggedIn } = useContext(UserContext);
   const cartval = useSelector((store) => store.cart.items);
   return (
