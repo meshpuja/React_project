@@ -11,7 +11,7 @@ const Body = () => {
   const [listOfRes, setlistOfRes] = useState([]);
   const [searchTxt, setsearchTxt] = useState("");
   const [filteredRes, setfilteredRes] = useState([]);
-  const onlineStatus = useOnlineStatus();
+  //const onlineStatus = useOnlineStatus();
   const { setuserName } = useContext(UserContext);
   useEffect(() => {
     fetchData();
