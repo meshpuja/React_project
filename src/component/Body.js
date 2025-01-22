@@ -31,9 +31,9 @@ const Body = () => {
     );
     //console.log(data);
   };
-  if (onlineStatus === false) {
-    return <h2>You'r offline</h2>;
-  }
+  // if (onlineStatus === false) {
+  //   return <h2>You'r offline</h2>;
+  // }
   if (listOfRes?.length === 0) {
     return <Shimmer />;
   }
