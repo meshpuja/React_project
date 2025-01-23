@@ -7,9 +7,7 @@ const useRestroMenuDetails = (resId) => {
     fetchData();
   }, []);
   const fetchData = async () => {
-    const data = await fetch(
-      "https://thingproxy.freeboard.io/fetch/" + MENU_URL + resId
-    );
+    const data = await fetch(MENU_URL + resId);
     const json = await data.json();
     setrestroDetail(json);
   };
