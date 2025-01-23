@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { MENU_URL } from "./constant";
 
 const useRestroMenuDetails = (resId) => {
-  [restroDetail, setrestroDetail] = useState([]);
+  const [restroDetail, setrestroDetail] = useState([]);
   useEffect(() => {
     fetchData();
   }, []);

@@ -11,7 +11,7 @@ const Body = () => {
   const [listOfRes, setlistOfRes] = useState([]);
   const [searchTxt, setsearchTxt] = useState("");
   const [filteredRes, setfilteredRes] = useState([]);
-  //const onlineStatus = useOnlineStatus();
+  const onlineStatus = useOnlineStatus();
   const { setuserName } = useContext(UserContext);
   useEffect(() => {
     fetchData();
@@ -32,9 +32,9 @@ const Body = () => {
     );
     //console.log(data);
   };
-  // if (onlineStatus === false) {
-  //   return <h2>You'r offline</h2>;
-  // }
+  if (onlineStatus === false) {
+    return <h2>You'r offline</h2>;
+  }
   if (listOfRes?.length === 0) {
     return <Shimmer />;
   }
